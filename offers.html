@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>العروض - Night Club Egypt</title>
+  <style>
+    * {box-sizing: border-box; margin:0; padding:0; font-family:"Segoe UI",Tahoma,Arial,sans-serif;}
+    body {background:#0b0b0c; color:#eee; padding:24px;}
+    header {text-align:center; margin-bottom:20px;}
+    header h1 {color:#ffdf5d; font-size:28px; margin-bottom:6px;}
+    header p {color:#ccc; font-size:14px;}
+
+    .plans-container {
+      max-width:1100px; margin:0 auto; display:grid; gap:20px;
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      margin-top:30px;
+    }
+    .plan {
+      background:rgba(255,255,255,0.02);
+      border:1px solid rgba(255,255,255,0.05);
+      border-radius:12px;
+      padding:20px; text-align:center;
+      transition:transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .plan:hover {transform:translateY(-5px); box-shadow:0 4px 10px rgba(0,0,0,0.4);}
+    .plan h2 {margin-bottom:8px; color:#fff;}
+    .price {font-size:24px; font-weight:700; color:#ff3b3b; margin:10px 0;}
+    ul {list-style:none; margin-top:10px;}
+    ul li {margin:8px 0; color:#ccc; font-size:14px;}
+    .btn {
+      display:inline-block; margin-top:14px; background:#ff3b3b; color:#fff; padding:10px 18px;
+      border-radius:8px; text-decoration:none; font-weight:700;
+    }
+    .btn:hover {background:#e63333;}
+    footer {margin-top:30px; text-align:center; color:#aaa; font-size:13px;}
+  
+    .back-home {
+      display: inline-block;
+      margin: 15px;
+      padding: 10px 20px;
+      background: #ff3b3b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .back-home:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <a class="back-home" href="index.html">الرجوع للرئيسية</a>
+<body>
+  <header>
+    <h1>العروض</h1>
+    <p>اختار الباقة اللي تناسبك واستمتع بأفضل سهرات VIP</p>
+  </header>
+
+  <div class="plans-container">
+    <div class="plan">
+      <h2>خصم علي الباقة الذهبية</h2>
+      <div class="price"> <del>3500</del> 2000 جنيه</div>
+      <ul>
+        <li>دخول 4 أشخاص</li>
+        <li>مشروبات بلا حدود</li>
+        <li>جلسة VIP خاصة</li>
+      </ul>
+      <a class="btn" href="https://wa.me/201273222486" target="_blank">احجز الآن</a>
+    </div>
+
+    <div class="plan">
+      <h2>خصم علي جلسة vip</h2>
+      <div class="price"> <del>5000</del> 2500جنيه</div>
+      <ul>
+       <li>دخول غير محدود</li>
+        <li>مشروبات VIP</li>
+        <li>جلسة خاصة لك ولضيوفك</li>
+        <li>خدمة خاصة + حراسة</li>
+      </ul>
+      <a class="btn" href="https://wa.me/201273222486" target="_blank">احجز الآن</a>
+    </div>
+
+      <a class="btn" href="https://wa.me/201273222486" target="_blank">احجز الآن</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Night Club Egypt. جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>

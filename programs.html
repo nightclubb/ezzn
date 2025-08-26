@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>البرامج - Night Club Egypt</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;font-family:"Segoe UI",Tahoma,Arial,sans-serif;}
+    body{background:#0b0b0c;color:#eee;padding:24px;}
+    header{text-align:center;margin-bottom:20px;}
+    header h1{color:#ffdf5d;font-size:28px;margin-bottom:6px;}
+    header p{color:#ccc;font-size:14px;}
+
+    .programs-container{
+      max-width:1100px;margin:0 auto;
+      display:grid;gap:20px;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      margin-top:30px;
+    }
+    .program{
+      background:rgba(255,255,255,0.02);
+      border:1px solid rgba(255,255,255,0.05);
+      border-radius:12px;
+      overflow:hidden;
+      transition:transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .program:hover{transform:translateY(-5px);box-shadow:0 4px 10px rgba(0,0,0,0.4);}
+    .program img{width:100%;height:160px;object-fit:cover;display:block;}
+    .program .content{padding:14px;}
+    .program h2{margin-bottom:6px;color:#fff;font-size:18px;}
+    .date{color:#ff3b3b;font-size:13px;margin-bottom:8px;}
+    .desc{color:#ccc;font-size:14px;margin-bottom:10px;}
+    .btn{display:inline-block;background:#ff3b3b;color:#fff;padding:8px 14px;border-radius:6px;text-decoration:none;font-weight:700;}
+    .btn:hover{background:#e63333;}
+
+    footer{margin-top:30px;text-align:center;color:#aaa;font-size:13px;}
+    .back-home {
+      display: inline-block;
+      margin: 15px;
+      padding: 10px 20px;
+      background: #ff3b3b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .back-home:hover {
+      background: #ff3b3b;
+    }
+  </style>
+</head>
+<body>
+  <a class="back-home" href="index.html">الرجوع للرئيسية</a>
+<body>
+  <header>
+    <h1>البرامج والحفلات</h1>
+    <p>تابع أحدث الحفلات والبرامج الخاصة بـ Night Club Egypt</p>
+  <div class="programs-container">
+    <div class="program">
+      <img src="https://via.placeholder.com/400x160?text=DJ+Night" alt="DJ Night">
+      <div class="content">
+        <h2>الفنان طارق الشيخ والمطربة رحمة محسن</h2>
+        <div class="date">الجمعة 5 سبتمبر 2025</div>
+        <p class="desc"> استمتع بأقوى حفلات الوطن العربي مع افضل نجوم الغناء العربي الفنان طارق الشيخ والفنانة رحمة محسن.</p>
+        <a class="btn" href="https://wa.me/201273222486" target="_blank">احجز مكانك</a>
+      </div>
+    </div>
+
+    <div class="program">
+      <img src="https://via.placeholder.com/400x160?text=Live+Band" alt="Live Band">
+      <div class="content">
+        <h2>فرقة لايف ميوزيك</h2>
+        <div class="date">السبت 6 سبتمبر 2025</div>
+        <p class="desc">حفلة موسيقية حية مع أفضل الفرق العالمية ومفاجآت على المسرح.</p>
+        <a class="btn" href="https://wa.me/201273222486" target="_blank">احجز مكانك</a>
+      </div>
+    </div>
+
+    <div class="program">
+      <img src="https://via.placeholder.com/400x160?text=VIP+Party" alt="VIP Party">
+      <div class="content">
+        <h2>سهرة VIP خاصة</h2>
+        <div class="date">الخميس 11 سبتمبر 2025</div>
+        <p class="desc">جلسة VIP حصرية تشمل مشروبات بلا حدود وخدمة خاصة.</p>
+        <a class="btn" href="https://wa.me/201273222486" target="_blank">احجز مكانك</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Night Club Egypt. جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>
